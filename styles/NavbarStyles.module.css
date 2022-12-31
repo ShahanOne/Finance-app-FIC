@@ -1,0 +1,38 @@
+.nav {
+  background-color: rgba(22, 21, 18, 0.752);
+  position: absolute;
+  padding-left: 1.2%;
+
+  width: 100%;
+}
+
+.nav ul {
+  margin-left: 70%;
+  /* margin-right: 12%; */
+  font-size: 1.3rem;
+}
+.nav ul li a {
+  color: rgb(189, 137, 40);
+}
+.nav ul li a:hover {
+  color: rgb(234, 178, 73);
+}
+.nav ul li a:visited {
+  color: rgb(208, 153, 50);
+}
+/* 
+.nav ul li {
+  margin: 3%;
+  font-size: 1.3rem;
+}
+.navLink {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgb(190, 192, 194);
+}
+
+.navLink:hover {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+} */
