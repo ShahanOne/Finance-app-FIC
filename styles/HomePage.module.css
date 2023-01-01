@@ -5,7 +5,7 @@
 }
 
 .welcomeDiv {
-  background-image: url('../public/finance2c.jpg');
+  background-image: url('../public/finance2cc.jpg');
   padding: 15% 0;
   background-size: cover;
 
@@ -27,82 +27,4 @@
 .exploreBtn {
   font-size: 1.5rem;
   background: rgba(79, 150, 83, 0.66);
-}
-.aboutDiv {
-  background-color: #111010;
-  color: #e7b639;
-  padding: 5% 3% 12%;
-  border: 12px solid #2d2c2c;
-  border-style: solid none;
-}
-.logoImg {
-  margin-left: 80%;
-}
-.aboutHeading {
-  font-size: 2.35rem;
-  font-weight: bold;
-  color: #e7b639;
-}
-
-.aboutDiv hr {
-  background-color: #e8b841;
-  opacity: unset;
-  margin-bottom: 3%;
-  width: 20%;
-  border-width: 0;
-  height: 0.6rem;
-}
-.aboutInfo {
-  font-size: 1.7rem;
-}
-
-.needDiv {
-  background-image: url('../public/finance5c.jpg');
-  padding: 15% 3%;
-  color: rgb(215, 202, 166);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.needHeading {
-  font-size: 2.4rem;
-  font-weight: bold;
-}
-.needDiv hr {
-  background-color: rgb(215, 202, 166);
-  margin-bottom: 3%;
-  opacity: unset;
-  width: 25%;
-  border-width: 0;
-  height: 0.4rem;
-}
-.needInfo {
-  font-size: 1.5rem;
-}
-
-.purposeDiv {
-  background-color: #111010;
-  color: #e7b639;
-  padding: 5% 3%;
-  border: 10px solid #2d2c2c;
-  border-style: solid none;
-}
-
-.purposeHeading {
-  font-size: 2.4rem;
-}
-
-.purposeInfo {
-  font-size: 1.5rem;
-}
-.purposeCard {
-  padding: 3%;
-  margin: 2.5% 0;
-  background-color: #232222;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-.financeIcon {
-  margin: 10% 0 0;
 }

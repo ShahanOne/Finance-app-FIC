@@ -1,0 +1,35 @@
+/* .carouselDiv {
+  margin: 20% 25%;
+  background-color: antiquewhite;
+} */
+
+.carouselImage {
+  border-radius: 50%;
+  padding: 1%;
+  box-shadow: rgba(82, 76, 76, 0.3) 10px 19px 38px,
+    rgba(87, 87, 87, 0.22) 0px 15px 12px;
+}
+.eventsDiv {
+  padding: 5% 3%;
+  background-color: #232222;
+  color: #232222;
+}
+.eventsHeading {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #e7b639;
+}
+.eventsDiv hr {
+  background-color: #e8b841;
+  opacity: unset;
+  margin-bottom: 3%;
+  width: 20%;
+  border-width: 0;
+  height: 0.6rem;
+}
+.carouselItem {
+  padding: 5%;
+  background-color: #e8b841;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.152) 0px 15px 12px;
+}

@@ -1,0 +1,27 @@
+.aboutDiv {
+  background-color: #111010;
+  color: #e7b639;
+  padding: 5% 3% 12%;
+  border: 12px solid #2d2c2c;
+  border-style: solid none;
+}
+.logoImg {
+  margin-left: 80%;
+}
+.aboutHeading {
+  font-size: 2.35rem;
+  font-weight: bold;
+  color: #e7b639;
+}
+
+.aboutDiv hr {
+  background-color: #e8b841;
+  opacity: unset;
+  margin-bottom: 3%;
+  width: 20%;
+  border-width: 0;
+  height: 0.6rem;
+}
+.aboutInfo {
+  font-size: 1.7rem;
+}

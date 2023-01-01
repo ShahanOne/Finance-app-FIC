@@ -1,0 +1,24 @@
+.needDiv {
+  background-image: url('../public/finance5c.jpg');
+  padding: 15% 3%;
+  color: rgb(215, 202, 166);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.needHeading {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.needDiv hr {
+  background-color: rgb(215, 202, 166);
+  margin-bottom: 3%;
+  opacity: unset;
+  width: 25%;
+  border-width: 0;
+  height: 0.4rem;
+}
+.needInfo {
+  font-size: 1.5rem;
+}
