@@ -19,7 +19,7 @@ function Need() {
       <br />
       <p className={styles.needInfo}>
         In an increasingly <b> globalised economy</b>, financial knowledge is a
-        need for every individual and a <b> finance & investments' app</b> would{' '}
+        need for every individual and a <b> finance & investments app</b> would{' '}
         <b> bridge the gap</b> through learning, research work & interesting
         discussions.
       </p>
