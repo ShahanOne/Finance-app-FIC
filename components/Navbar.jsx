@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className={` navbar sticky-top navbar-expand-lg ${styles.nav} `}>
       <div className="container-fluid">
         <Link className="navbar-brand" href={'/'}>
-          <Image src={'/download.png'} alt="brand" width={50} height={50} />
+          <Image src={'/financeLogo.png'} alt="brand" width={50} height={50} />
         </Link>
         <button
           className="navbar-toggler"

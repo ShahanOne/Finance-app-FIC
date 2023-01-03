@@ -4,10 +4,10 @@ import styles from '../styles/Purpose.module.css';
 function Purpose() {
   return (
     <div className={`row ${styles.purposeDiv} `} id="purposeDiv">
-      <p className={`${styles.purposeHeading}`}>The Purpose Of FIC</p>
+      <p className={`${styles.purposeHeading}`}>The Purpose Of Financing App</p>
       <div className={`col-lg-10 ${styles.purposeCard}`}>
         <p className={styles.purposeInfo}>
-          <b>FIC, JMI </b> would organise <b> workshops</b> and
+          <b>The initiative </b> would organise <b> sessions</b> and would
           <b> collaborate</b> with people from within the industry to connect
           and impart knowledge to the participants.
         </p>
@@ -39,9 +39,9 @@ function Purpose() {
       </div>
       <div className={`col-lg-10 ${styles.purposeCard}`}>
         <p className={styles.purposeInfo}>
-          The Cell aims to spread financial literacy in a fun yet holistic way
-          to the underserved community and regularly organises drives to fulfil
-          this aim.
+          The initiative aims to spread financial literacy in a fun yet holistic
+          way to the underserved community and regularly organises drives to
+          fulfil this aim.
         </p>
       </div>
       <div className="col-lg-2">

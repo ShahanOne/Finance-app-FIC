@@ -7,7 +7,7 @@ function About() {
       {' '}
       <Image
         className={styles.logoImg}
-        src={'/download.png'}
+        src={'/financeLogoYellow.png'}
         alt="logo"
         width={150}
         height={150}
@@ -15,8 +15,8 @@ function About() {
       <p className={styles.aboutHeading}> About Us</p>
       <hr />
       <p className={styles.aboutInfo}>
-        A student-driven body that researches and spreads{' '}
-        <b>Financial Literacy</b> among students about{' '}
+        A passion-driven body that researches and spreads{' '}
+        <b>Financial Literacy</b> among people about{' '}
         <b>ecomomics, business and finance</b> around the globe.
       </p>
       <br />

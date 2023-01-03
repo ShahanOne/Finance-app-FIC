@@ -12,10 +12,8 @@ export default function Home() {
     <div className={styles.mainDiv} id="mainDiv">
       <center>
         <div className={styles.welcomeDiv}>
-          <p className={styles.welcomeText}>Welcome To FIC </p>
-          <p className={styles.infoText}>
-            Finance and Investments Cell, Jamia Millia Islamia
-          </p>
+          <p className={styles.welcomeText}>Welcome To Financing App </p>
+          <p className={styles.infoText}>All about Finances and Investments</p>
           <button className={`btn btn-success ${styles.exploreBtn} `}>
             Explore
           </button>
