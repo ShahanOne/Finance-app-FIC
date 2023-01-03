@@ -48,7 +48,7 @@ function Events() {
                     immersive experience
                   </p>
                 </div>
-                <div className="col-lg-4">
+                <div className={`col-lg-4 ${styles.imgColumn} `}>
                   <Image
                     src="/event4.jpg"
                     width={400}

@@ -20,19 +20,9 @@
 .nav ul li a:visited {
   color: rgb(208, 153, 50);
 }
-/* 
-.nav ul li {
-  margin: 3%;
-  font-size: 1.3rem;
-}
-.navLink {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: rgb(190, 192, 194);
-}
 
-.navLink:hover {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: rgb(255, 255, 255);
-} */
+@media (max-width: 1000px) {
+  .toggler {
+    background-color: #e8b841;
+  }
+}

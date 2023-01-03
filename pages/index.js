@@ -14,7 +14,10 @@ export default function Home() {
       <center>
         <div className={styles.welcomeDiv}>
           <p className={styles.welcomeText}>Welcome To Financing App </p>
-          <p className={styles.infoText}>All about Finances and Investments</p>
+          <p className={styles.infoText}>
+            {' '}
+            <i> All about Finances and Investments</i>
+          </p>
           <button className={`btn  btn-success ${styles.exploreBtn} `}>
             <Link className={styles.exploreLink} href="#eventsDiv">
               {' '}

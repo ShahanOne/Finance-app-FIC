@@ -41,3 +41,16 @@
   text-decoration: none;
   color: #fff;
 }
+
+@media (max-width: 1000px) {
+  .welcomeDiv {
+    padding: 25% 0;
+    background-position: unset;
+  }
+  .welcomeText {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50%;
+    padding-bottom: 10%;
+  }
+}

@@ -42,3 +42,16 @@
     'Lucida Sans', Arial, sans-serif;
   font-style: italic;
 }
+
+@media (max-width: 1000px) {
+  .carouselImage {
+    padding: 2%;
+    margin-left: 0;
+    box-shadow: unset;
+    height: 20rem;
+    width: 20rem;
+  }
+  .eventInfo {
+    margin-bottom: 15%;
+  }
+}

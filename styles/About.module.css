@@ -25,3 +25,9 @@
 .aboutInfo {
   font-size: 1.7rem;
 }
+
+@media (max-width: 1000px) {
+  .logoImg {
+    margin-left: 50%;
+  }
+}

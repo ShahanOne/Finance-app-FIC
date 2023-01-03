@@ -15,7 +15,7 @@ const Navbar = () => {
           />
         </Link>
         <button
-          className="navbar-toggler"
+          className={`navbar-toggler  ${styles.toggler} `}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarToggler"
@@ -25,7 +25,7 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarToggler">
+        <div className={`collapse navbar-collapse`} id="navbarToggler">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link" aria-current="page" href={'/'}>
