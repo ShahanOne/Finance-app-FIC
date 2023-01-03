@@ -1,10 +1,11 @@
-import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/HomePage.module.css';
 import { Inter } from '@next/font/google';
 import About from '../components/About';
 import Purpose from '../components/Purpose';
 import Need from '../components/Need';
 import Events from '../components/Events';
+import Footer from '../components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -14,8 +15,11 @@ export default function Home() {
         <div className={styles.welcomeDiv}>
           <p className={styles.welcomeText}>Welcome To Financing App </p>
           <p className={styles.infoText}>All about Finances and Investments</p>
-          <button className={`btn btn-success ${styles.exploreBtn} `}>
-            Explore
+          <button className={`btn  btn-success ${styles.exploreBtn} `}>
+            <Link className={styles.exploreLink} href="#eventsDiv">
+              {' '}
+              Explore
+            </Link>
           </button>
         </div>
       </center>
@@ -23,6 +27,7 @@ export default function Home() {
       <Need />
       <Purpose />
       <Events />
+      <Footer />
     </div>
   );
 }

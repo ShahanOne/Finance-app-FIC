@@ -7,7 +7,7 @@ function About() {
       {' '}
       <Image
         className={styles.logoImg}
-        src={'/financeLogoYellow.png'}
+        src={'/financeLogoYellow2.png'}
         alt="logo"
         width={150}
         height={150}

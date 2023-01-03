@@ -7,7 +7,12 @@ const Navbar = () => {
     <nav className={` navbar sticky-top navbar-expand-lg ${styles.nav} `}>
       <div className="container-fluid">
         <Link className="navbar-brand" href={'/'}>
-          <Image src={'/financeLogo.png'} alt="brand" width={50} height={50} />
+          <Image
+            src={'/financeLogoYellow2.png'}
+            alt="brand"
+            width={50}
+            height={50}
+          />
         </Link>
         <button
           className="navbar-toggler"
@@ -23,7 +28,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href={'#mainDiv'}>
+              <Link className="nav-link" aria-current="page" href={'/'}>
                 Home
               </Link>
             </li>

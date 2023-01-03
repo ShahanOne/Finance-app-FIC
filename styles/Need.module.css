@@ -1,7 +1,7 @@
 .needDiv {
-  background-image: url('../public/finance5c.jpg');
-  padding: 15% 3%;
-  color: rgb(215, 202, 166);
+  background-image: url('../public/needBg.jpg');
+  padding: 0;
+  color: #e7b639;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,12 +12,17 @@
   font-weight: bold;
 }
 .needDiv hr {
-  background-color: rgb(215, 202, 166);
+  background-color: rgb(110, 91, 38);
   margin-bottom: 3%;
   opacity: unset;
   width: 25%;
   border-width: 0;
   height: 0.4rem;
+}
+.needInfoDiv {
+  padding: 10% 5%;
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
 }
 .needInfo {
   font-size: 1.5rem;
